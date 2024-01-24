@@ -11,9 +11,18 @@ package arraydemo;
 public class Student {
     private int sId;
     private String name;
+    private String Address;
+
+    public void setAddress(String Address) {
+        this.Address = Address;
+    }
 
     public int getsId() {
         return sId;
+    }
+
+    public String getAddress() {
+        return Address;
     }
 
     public void setsId(int sId) {
